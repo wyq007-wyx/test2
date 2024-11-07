@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="17Iy-YXGDgX40kbHxWd_-2" value="br1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="182" y="10" width="86" height="60" as="geometry" />
+          <mxGeometry x="280" y="10" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17Iy-YXGDgX40kbHxWd_-3" value="mongodb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="70" width="70" height="60" as="geometry" />
+          <mxGeometry x="480" y="90" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17Iy-YXGDgX40kbHxWd_-5" value="sbi(123.100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="90" width="70" height="30" as="geometry" />
@@ -109,7 +109,7 @@
         <mxCell id="17Iy-YXGDgX40kbHxWd_-32" value="host" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="70" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="17Iy-YXGDgX40kbHxWd_-33" value="webconsole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-33" value="web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="175" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17Iy-YXGDgX40kbHxWd_-34" value="sbi(123.200)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -117,6 +117,69 @@
         </mxCell>
         <mxCell id="17Iy-YXGDgX40kbHxWd_-35" value="sbi(123.201)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="175" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-13" target="17Iy-YXGDgX40kbHxWd_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.475;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-23" target="17Iy-YXGDgX40kbHxWd_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-38" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-5" target="17Iy-YXGDgX40kbHxWd_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-39" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-34" target="17Iy-YXGDgX40kbHxWd_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-40" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-35" target="17Iy-YXGDgX40kbHxWd_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-42" value="虚拟机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-43" value="NAT:10.0.15.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="55" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-44" value="host-only：192.168.56.116" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="75" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-45" value="默认网关：10.0.123.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ea0b0b;" vertex="1" parent="1">
+          <mxGeometry x="850" y="205" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-46" value="&lt;font color=&quot;#ff0000&quot;&gt;路由表&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;10.0.123.0 都走10.0.123.200&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="875" y="45" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-47" value="" style="endArrow=none;html=1;rounded=0;exitX=0.95;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-42" target="17Iy-YXGDgX40kbHxWd_-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="17Iy-YXGDgX40kbHxWd_-33" target="17Iy-YXGDgX40kbHxWd_-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-50" value="&lt;font color=&quot;#ff0000&quot;&gt;NAT&lt;/font&gt;&lt;br&gt;&lt;div&gt;源地址是10.0.123.0的都会经过伪装从enp0s3发出&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="100" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17Iy-YXGDgX40kbHxWd_-51" value="sudo iptables -s 10.0.123.0/24 -t nat -A POSTROUTING -j MASQUERADE" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="430" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
